@@ -1,0 +1,26 @@
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
+
+function addElementToBeginningOfArray(array,value){
+  return [value,...array]
+}
+
+function destructivelyAddElementToBeginningOfArray(array,element){
+   array.unshift(element)
+   return array
+}
+
+function accessElementInArray (array, index){
+  return array[index]
+}
+
+function removeElementFromBeginningOfArray(array){
+  return array.slice(1)
+}
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  return array.pop()
+}
+
+function removeElementFromEndOfArray(array){
+  return arry.slice(0,arry.length-1)
+}
